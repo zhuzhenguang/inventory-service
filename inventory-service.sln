@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventory-service", "src\inventory-service\inventory-service.csproj", "{EA018D97-FE94-429E-95DB-5E4E65709723}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventory-service-test", "test\inventory-service-test\inventory-service-test.csproj", "{37ACA63F-7C77-4B18-9859-94D37BEA9864}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA018D97-FE94-429E-95DB-5E4E65709723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA018D97-FE94-429E-95DB-5E4E65709723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA018D97-FE94-429E-95DB-5E4E65709723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA018D97-FE94-429E-95DB-5E4E65709723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37ACA63F-7C77-4B18-9859-94D37BEA9864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37ACA63F-7C77-4B18-9859-94D37BEA9864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37ACA63F-7C77-4B18-9859-94D37BEA9864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37ACA63F-7C77-4B18-9859-94D37BEA9864}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
