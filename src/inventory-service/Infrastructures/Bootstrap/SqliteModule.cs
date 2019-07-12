@@ -18,7 +18,7 @@ namespace order_service.Infrastructures.Bootstrap
         private static ISessionFactory BuildSessionFactory()
         {
             IPersistenceConfigurer dbConfiguration = SQLiteConfiguration
-                .Standard.UsingFile("order.db");
+                .Standard.UsingFile("inventory.db");
 
             FluentConfiguration fluentConfiguration = Fluently.Configure()
                 .Database(dbConfiguration)
